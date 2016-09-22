@@ -23,3 +23,4 @@ print classifier.classify(gender_features('Shreya'))
 print classifier.classify(gender_features('Anurag'))
 
 print nltk.classify.accuracy(classifier ,test_set)
+classifier.show_most_informative_features(5)
