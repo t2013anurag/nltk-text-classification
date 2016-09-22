@@ -33,3 +33,4 @@ for sentence, type_of in test:
 	print classifier.classify(sentence)
 	
 print classifier.accuracy(test)
+classifier.show_informative_features(5)
